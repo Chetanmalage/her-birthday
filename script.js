@@ -10,6 +10,8 @@ function enterSite() {
 
   const intro = document.querySelector(".intro-screen");
 
+  document.getElementById("music").play();
+
   intro.style.opacity = "0";
 
   setTimeout(() => {
